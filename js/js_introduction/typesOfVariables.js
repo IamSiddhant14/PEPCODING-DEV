@@ -1,3 +1,10 @@
+// We will be dealing with two type of enviroment for now one is the browser and the another one is node js
+
+//variable
+// loops
+//if else
+// let var const
+
 
 //variable declartion with let var and const
 
@@ -82,7 +89,7 @@ console.log(c); //no error
 // console.log(k); 
 
 
-// I hereby plege to use "let" only and not "var" because of the following problems
+// I hereby plege to use "let" only and not "var" because of the following problems (Will get the refrens later to this sentence)
 
 
 //Const
