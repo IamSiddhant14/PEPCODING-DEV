@@ -54,6 +54,7 @@ console.log(concatenatedstr);
 
 let text = "      hello 2 world 2        ";
 console.log(text);
+//Trim method trim the extra spaces if present 
 let trimmedText = text.trim();
 console.log(trimmedText);
 
