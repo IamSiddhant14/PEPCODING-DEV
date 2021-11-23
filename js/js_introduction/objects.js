@@ -48,3 +48,7 @@ cap.rich();
 for( let key in cap){
     console.log(key , cap[key]);
 }
+ 
+
+// Objects having key value starting from "-" or any numbet is consider invalid to acces that key in an object we
+// need to use the squre bracket notation and dot notation wont work here
