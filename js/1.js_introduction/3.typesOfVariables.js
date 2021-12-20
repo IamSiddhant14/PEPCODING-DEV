@@ -87,7 +87,10 @@ console.log(c); //no error
 
 
 //Here error as let has its existance within the block only that is block scope
+
+
 // if( 10%2 ==0){
+// Here this k doesnt exist after this block
 //     let k = 1;
 //     console.log(k);
 // }
@@ -107,6 +110,10 @@ const d = 10;
 // whereas the reasigning  thing is possible in "let" 
 // And the reasigning and the redeclarion thing is possible in "var"
 
+
+
+//concatenation in javascript
+console.log("I am from outside",d)
 
 
 
