@@ -5,6 +5,8 @@
 //if else
 // let var const
 
+//There is nothing like char in javascript there are only string 
+
 
 //variable declartion with let var and const
 
@@ -13,11 +15,14 @@ console.log(a);
 a=20;
 console.log(a);
 //javascript is an synchrounus and a single threaded language
-a="20";
+a ="20";
 console.log(a);
 // a="Hello"; dynamic behaviour of javascript
 console.log(a);
 a= true;
+console.log(a);
+// assigning value to "a" as null
+a= null;
 console.log(a);
 //javascript is an dyanimically typed language that is dont need to specifie the type of variable as such
 // semicolon is not compulsory in javascript
@@ -40,7 +45,7 @@ console.log(a);
 // But in case of "let" keyword we could not redeclare the same variable where was this was allowed in var
 //but here re-defining is allowed , same as that in var keyword javascript
 
-//redeclaring(not allowed) and redefing(allowed) this two are two diffrent things
+//redeclaring(not allowed) and redefing/reassigning(allowed) this two are two diffrent things
 
 let  b = 2;
 console.log(b);
