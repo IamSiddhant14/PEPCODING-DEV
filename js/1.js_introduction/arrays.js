@@ -1,5 +1,5 @@
 //Array
-//Arrays are ordered collection
+//Arrays are ordered collection organised in a continous block of memory 
 
 let arr = []; //array are initalized with square brackets
 
@@ -18,6 +18,14 @@ console.log(cars);
 //Adding an element in an array
 cars[3]="4";
 console.log(cars);
+
+
+//Here the middle element will be "Empty"
+cars[7]="7";
+console.log(cars);
+
+// OUTPUT:
+1,1,2,3,4,empty,empty,7
 
 
 //Arrays length
@@ -54,3 +62,14 @@ console.log(cars);
 for( let ele in cars){
     console.log(ele,cars[ele])
 }
+
+//MultiDimensional Array
+
+let matrix = [
+    [1.2,3],
+    [4,5,6],
+    [7,8,9]
+];
+
+console.log(matrix[0][1]); // OUTPUT - 2
+console.log(matrix[2][1]); // OUTPUT - 8
