@@ -45,7 +45,7 @@ console.log(a);
 // But in case of "let" keyword we could not redeclare the same variable where was this was allowed in var
 //but here re-defining is allowed , same as that in var keyword javascript
 
-//redeclaring(not allowed) and redefing/reassigning(allowed) this two are two diffrent things
+//redeclaring(not allowed) and redefing/reassigning (allowed) this two are two diffrent things
 
 let  b = 2;
 console.log(b);
