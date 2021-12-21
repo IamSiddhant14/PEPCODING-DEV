@@ -2,16 +2,16 @@
 //key value collectively is know as property
 //keys are by default string if written in double quotes or not in object
 
-let obj ={};
+let obj ={}; //Creating an empty object
 
 let cap ={
     fristname : 'Siddhant',//string
     lastname : "sharma",//string
-    friends : [ 'Siddhant-55', 'no-one'], //string
+    friends : [ 'Siddhant-55', 'no-one'], //Array
     placedatgoodpbc : true, //Boolean
     age: 21, //integer
-    placedatsbc : true,
-    address : {
+    placedatsbc : true,//Boolean
+    address : {  //Object
         country : 'canada', //string
         city : 'Toronto' //string
     },
@@ -32,10 +32,12 @@ cap.placedatsbc =  false ;
 //delete a prop
 delete cap.placedatsbc ;
 
+//Accessing element
 console.log(cap);
-console.log(cap.friends);
-console.log(cap['friends']);
+console.log(cap.friends[1]);//Dotted notation
+console.log(cap['friends']);//Square bracket notation
 console.log(cap['friends'][0]);
+console.log(cap.address.city);
 cap.rich();
 
 

@@ -1,3 +1,8 @@
+//There are two type of data type in javascript :
+// 1.> primitive - Number ,string , boolean
+// 2.> Reference - Array ,Objects ,Function
+
+
 // We will be dealing with two type of enviroment for now one is the browser and the another one is node js
 
 //variable
