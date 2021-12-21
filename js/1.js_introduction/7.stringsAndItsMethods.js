@@ -11,6 +11,8 @@
 // 5.> concat
 // 6.> trim
 
+
+//A string is a group of characters
 let str = "pepcoders";
 console.log(str);
 
@@ -47,7 +49,8 @@ console.log(text3);
 
 let fristStr = "Hello 1";
 let secondStr = "World 1";
-let concatenatedstr = fristStr.concat(secondStr);
+let concatenatedstr = fristStr.concat(secondStr);//Hello 1World 1
+let concatenatedstr = fristStr.concat(" bhai ",secondStr);//Hello 1 bhai World 1
 console.log(concatenatedstr);
 
 //Trim method 
