@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+
+
+    <style>
+        /* In style tag we right CSS */
+        /* css always require an semicolon(;) at the end of each property so as to ensure property break and start an new property */
+        /* Css selector */
+
+
+        /* Element Selector */
+        h1{
+            color: blue;
+        }
+
+
+        /* Decendant Selector */
+        /* That is one tag inside another not neccasery to be next to each other */
+        /* Here it mean that change the colour of all the list item present inside div tag */
+        /* here "div ol" will also work */
+        div li  {
+            color :pink;
+        }
+
+
+
+        /* Children Selector */
+        /* Here each tag should be next to each other , like div tag then just next tag should be the h1 tag after that next tag should be the span tag*/
+        /* Here it mean that change the  color and font of all the span tag which is a children too the h1 tag and also the div is the grand parent to the span tag such that one tag should be the next to the other*/
+        div > h1 > span{
+            color: rgb(80, 255, 10);
+            font-size: xx-large;
+        }
+
+        /* class selector */
+        .class1{
+            color:black;
+        }
+
+        .class2{
+            color: brown;
+        }
+
+
+        /* Multiple classes on same elements */
+ 
+        /* NO space in bewteen */
+        /* Any tag having both the classes (exclusive not allowed) will be following the below listed property */
+
+        .class3.class4 {
+            color: chartreuse;
+            font-style: italic ;
+        }
+
+        /* Classes Decendant Selector */
+
+        .c1 span .c2{
+            color:green;
+            font-size: xx-large;
+            
+        }
+
+
+        /* Id selector ,id are unique , never use id for styling purposes instead use it for identification purposes */
+        #one{
+            color: darkorchid;
+        }
+
+ 
+        /* Attribute Selector */
+        /* Here single parenthesis is important */
+
+
+        input[value = 'Select me']{
+            /* input[type = 'button'] Here this will also work*/
+
+            background-color: pink;
+
+        }
+
+        /* Combination */
+        #the-one>.c1.c2{
+            color: black;
+        }
+
+    </style>
+
+    <link rel="stylesheet" href="/CSS/Selectors.css">
+
+</head>
+<body>
+    <!-- Inline css overerides extenal or internal css -->
+    <h1>Hello <span style="color: chartreuse;">This is accomptised using inline css but the problem with inline css is that it is repetativein nature </span> i am siddhant</h1>
+    <h1>Hello i am siddhant</h1>
+    <h1>Hello i am siddhant</h1>
+    <h1>Hello i am siddhant</h1>
+    <h1>Hello i am siddhant</h1>
+   <!-- This p tag is been styled used using extenal css --> 
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, dolore.
+    </p>
+
+    <div>
+        <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+            <li>Item 5</li>
+        </ol>
+
+    </div>
+
+    <p class = "class1"> Random class -1 </p>
+    <p class = "class1"> Random class -2 </p>
+    <p class = "class2"> Random class -3 </p>
+    <p class = "class3"> Random class -4 </p>
+             
+    <p class = "class4 class3"> Random class -3,4 </p>
+    <p class = "class4"> Random class -4 </p>
+    <p class = "class3"> Random class -4 </p>
+    <p class = "class3" id= "one"> Random class -56 </p>
+
+    <div class = "c1">
+        <div>
+            <div>
+                <span>
+                     <div class = "c2"> c1 op c2 </div>
+                </span>
+            </div>
+        </div>
+
+    </div>
+
+    <form >
+        <input type="button" value="Click me">
+        <input type="button" value= "Select me">
+    </form>
+    <div id = "the-one">
+        <p class="c1 c2">Hi</p>
+    </div>
+
+    
+</body>
+</html>
