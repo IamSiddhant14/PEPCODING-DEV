@@ -1,13 +1,14 @@
 /* This file is an style sheet */
 
 /* Default styling */
-/* * - we could use unviversal selector as dwell */
+/* --------------------- " * "- we could use unviversal selector as well */
 html{
     
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
 
 }
+
 nav{
     width: 20rem;
     /* 
@@ -18,13 +19,6 @@ nav{
     top: 1rem;
 }
 
-header h1{
-
-    font-weight: bolder;
-    font-size: 2rem;
-
-}
-
 header{
     /*   */
     display: flex;
@@ -33,6 +27,15 @@ header{
     /* One rem is equivalent to one font size prsent in the file */
     margin: 0 10px;
 }
+
+
+header h1{
+
+    font-weight: bolder;
+    font-size: 2rem;
+
+}
+
 
 ul{
     display:flex ;

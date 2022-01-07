@@ -1,6 +1,6 @@
 //There are two type of data type in javascript :
-// 1.> primitive - Number ,string , boolean
-// 2.> Reference - Array ,Objects ,Function
+// 1.> primitive - Number ,string , boolean ---------- heap per he store hota hai or refrence variable bhi heap per he banta hai
+// 2.> Reference - Array ,Objects ,Function ---------- heap per store hota hai and stack per refrence variable banta hai
 
 
 // We will be dealing with two type of enviroment for now one is the browser and the another one is node js
@@ -83,8 +83,8 @@ if( flag == true){
 
 //problem -2 with var :
 
-if(10 %2 ==0){
-    var c =2;
+if(10 % 2 ==0){
+    var c = 2;
     console.log(c);
 }
 
