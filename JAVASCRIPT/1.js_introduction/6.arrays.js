@@ -27,7 +27,6 @@ console.log(cars);
 // OUTPUT:
 1,1,2,3,4,empty,empty,7
 
-
 //Arrays length
 
 console.log(cars.length);

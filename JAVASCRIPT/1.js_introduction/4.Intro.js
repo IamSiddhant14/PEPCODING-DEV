@@ -2,7 +2,6 @@
 //Before node this was not possible as we were able to run javascript on the browser  side only
 //Therefore node has provided us with this run time enviroment to run js on our systems also
 
-
 //Printing in javascript
 console.log( "Hello World");
 

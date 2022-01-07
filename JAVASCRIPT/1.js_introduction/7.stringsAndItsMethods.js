@@ -1,7 +1,6 @@
 
 // ***********************************************STRING*******************************************************
 
-
 //STRING METHODS 
 
 // 1.> length
@@ -10,7 +9,6 @@
 // 4.> replace
 // 5.> concat
 // 6.> trim
-
 
 //A string is a group of characters
 let str = "pepcoders";
