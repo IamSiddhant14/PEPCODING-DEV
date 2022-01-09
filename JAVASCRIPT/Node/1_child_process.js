@@ -9,10 +9,10 @@ console.log("Opening Calculator");
 // Inbuild function which help us to run external commonds
 cp.execSync('calc');//exec syc is an function which help us in executing a cammond/creates a sub process in syncronus manner
 
-cp.execSync('code');//To Open VSCODE
+cp.execSync('code');//To open VSCODE
 
 cp.execSync('start chrome https://github.com/IamSiddhant14');//Open browser chrome and then open the provided link
 
 let output = cp.execSync('node test.js');
 
-console.log( 'output ->' + output);//WHen data is returned in the format of binary then we perfome conatenation opertion
+console.log( 'output ->' + output);//WHen data is returned in the format of binary then we perfome conatenation
