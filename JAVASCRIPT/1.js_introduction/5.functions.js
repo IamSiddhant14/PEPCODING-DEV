@@ -35,7 +35,7 @@ let syaHi = function(a){
 syaHi("b");
 
 
-//IIFE  ( Immediately invoked function expression )
+//IIFE  ( Immediately invoked function expression ) Auto calling
 
 let add = (function(a,b){
 
