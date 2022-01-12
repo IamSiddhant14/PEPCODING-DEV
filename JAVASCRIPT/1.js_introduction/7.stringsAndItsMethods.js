@@ -52,10 +52,11 @@ let concatenatedstr = fristStr.concat(" bhai ",secondStr);//Hello 1 bhai World 1
 console.log(concatenatedstr);
 
 //Trim method 
+//Trim method trims the extra spaces if present this does not eleminate the space which is present bewtween the words
 
 let text = "      hello 2 world 2        ";
 console.log(text);
-//Trim method trims the extra spaces if present this does not eleminate the space which is present bewtween the words
+
 let trimmedText = text.trim();
 console.log(trimmedText);
 
