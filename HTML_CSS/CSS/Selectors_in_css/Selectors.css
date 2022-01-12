@@ -1,9 +1,9 @@
 /* cascading style sheet */
 
 /* We could incoperate css in our website using the following methods
--->Inline
--->Internal
--->External
+-->Inline - That is provinding prop in the same very line
+-->Internal - Using style tag which is located in the head
+-->External - Use link tag to link our external style sheet
 
 */
 
@@ -55,10 +55,8 @@
 
 
         /* Multiple classes on same elements */
- 
         /* NO space in bewteen */
-        /* Any tag having both the classes (exclusive not allowed) will be following the below listed property */
-
+        /* Any tag having both the classes (exclusive not allowed) will be following the below listed property ,Although order of property dont matter*/
         .class3.class4 {
             color: chartreuse;
             font-style: italic ;
@@ -68,20 +66,24 @@
 
         .c1 span .c2{
             color:green;
-            font-size: xx-large;
-            
+            font-size: xx-large;   
         }
 
 
-        /* Id selector ,id are unique , never use id for styling purposes instead use it for identification purposes */
+        /* Id selector ,id are unique , never use id for styling purposes instead use it for identification purposes #Industrie rule*/
         #one{
             color: darkorchid;
         }
-
  
         /* Attribute Selector */
         /* Here single parenthesis is important */
 
+        input[type = 'button']{
+            /* input[type = 'button'] Here this will also work*/
+
+            background-color:aqua;
+
+        }
 
         input[value = 'Select me']{
             /* input[type = 'button'] Here this will also work*/
