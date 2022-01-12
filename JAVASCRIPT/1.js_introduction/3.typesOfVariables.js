@@ -5,12 +5,19 @@
 
 // We will be dealing with two type of enviroment for now one is the browser and the another one is node js
 
-//variable
+// variable
 // loops
-//if else
+// if else
 // let var const
 
 //There is nothing like char in javascript there are only string 
+
+//javascript is an synchrounus and a single threaded language
+
+// JavaScript is single threaded and has a synchronous execution model.
+// Single threaded means that one command is being executed at a time.
+// Synchronous means one at a time i.e. one line of code is being executed at time in order the code appears.
+// So in JavaScript one thing is happening at a time
 
 
 //variable declartion with let var and const
@@ -19,7 +26,7 @@ var a ; // frist the variable is been initalzed with undefined
 console.log(a);
 a=20;
 console.log(a);
-//javascript is an synchrounus and a single threaded language
+
 a ="20";
 console.log(a);
 // a="Hello"; dynamic behaviour of javascript
