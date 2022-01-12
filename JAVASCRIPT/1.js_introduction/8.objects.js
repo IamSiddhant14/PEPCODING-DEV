@@ -35,7 +35,7 @@ delete cap.placedatsbc ;
 //Accessing element
 console.log(cap);
 console.log(cap.friends[1]);//Dotted notation
-console.log(cap['friends']);//Square bracket notation
+console.log(cap['friends']);//Square bracket notation,To be used in loops as dot notation dont work with it
 console.log(cap['friends'][0]);
 console.log(cap.address.city);
 cap.rich();
@@ -51,6 +51,5 @@ for( let key in cap){
     console.log(key , cap[key]);
 }
  
-
 // Objects having key value starting from "-" or any numbet is consider invalid to acces that key in an object we
 // need to use the squre bracket notation and dot notation wont work here
