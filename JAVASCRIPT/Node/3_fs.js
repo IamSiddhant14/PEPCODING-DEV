@@ -45,7 +45,7 @@ console.log('isFile ?',statsofDirctory.isFile());
 
 console.log('isDirectory ?',statsofDirctory.isDirectory());
 
- let folderpath = 'C:\\Users\\Acer\\Desktop\\PROJECTS\\PEPCODING-DEV\\JAVASCRIPT\\Node\\myDirectory';
+ let folderpath = 'C:\\Users\\Acer\\Desktop\\PROJECTS\\PEPCODING-DEV\\JAVASCRIPT\\Node\\myDirectory';//Here the "\\" is really important in node js
 
  let foldercontent = fs.readdirSync( folderpath);
  console.log("directory content  "+ foldercontent);//Lists out the contents/files present in the directory
