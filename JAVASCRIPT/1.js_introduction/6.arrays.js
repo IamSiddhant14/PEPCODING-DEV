@@ -9,6 +9,10 @@ console.log(arr1);
 
 //Arrays methods
 let cars = [1,2,3];
+
+// Accessing element
+console.log(cars[1]);
+
 cars[1] = 1;//replace
 
 console.log(cars);
