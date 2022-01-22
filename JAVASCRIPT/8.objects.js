@@ -36,8 +36,10 @@ delete cap.placedatsbc ;
 console.log(cap);
 console.log(cap.friends[1]);//Dotted notation
 console.log(cap['friends']);//Square bracket notation,To be used in loops as dot notation dont work with it
-console.log(cap['friends'][0]);
+console.log(cap['friends']["0"]);
+console.log(cap['friends'][0]);//We could either write 0 in commas or without it as well but it is not true for strings
 console.log(cap.address.city);
+console.log(cap['address']['city']);//Here single commas is compulsory
 cap.rich();
 
 
