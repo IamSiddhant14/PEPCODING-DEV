@@ -19,7 +19,6 @@ console.log("The sum is "+sum);
 //In javascript functions are know as frist class citizens
 //That is we can treat functions as variables in javascript
 
-
 //Named function expression
 let syaHi = function op(a){
     console.log(a);
@@ -42,6 +41,8 @@ let add = (function(a,b){
     console.log(a+b);
 
 })(10, 20);
+
+
 
 
 

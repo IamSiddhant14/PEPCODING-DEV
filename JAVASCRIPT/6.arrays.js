@@ -76,3 +76,4 @@ let matrix = [
 
 console.log(matrix[0][1]); // OUTPUT - 2
 console.log(matrix[2][1]); // OUTPUT - 8
+

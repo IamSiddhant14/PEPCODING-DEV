@@ -25,7 +25,6 @@ console.log(str.length);
 let slicedStr = str.slice(3, 7);//here 7 is not been included therfore last index is excluded
 console.log(slicedStr);
 
-
 let subString = str.substr( 3, 5);// here 3 is the starting index and 5 is the number of elements we to trvel from 3
 console.log(subString);
 
