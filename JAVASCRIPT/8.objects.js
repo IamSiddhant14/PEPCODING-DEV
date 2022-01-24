@@ -45,9 +45,7 @@ cap.rich();
 
 //Here everything which is written inside bracket should be in semicolons expect integers
 
-
 //Applying loop on a object (for-in loop)  :::::
-
 
 for( let key in cap){
     console.log(key , cap[key]);
