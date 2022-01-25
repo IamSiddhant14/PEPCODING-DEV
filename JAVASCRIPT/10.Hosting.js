@@ -1,8 +1,8 @@
 // ***********************************************************************
-//Unlike var, let and const variables are not hoisted in the global space instead and also we could not access that memory space until we have assigned some value to it
+// Unlike var, let and const variables are not hoisted in the global space instead they are been hosited at some other space and also we could not access that memory space until we have assigned some value to it
 
-//The space bewteen when the variable let is been hoisted and till when it is been assigned some value is called an temporal deadzone so whenever we try to access a variable bewteen it ,then it would result in an reffrence error
-//NORMALE CASE FOR VAR
+// The space bewteen when the variable let is been hoisted and till when it is been assigned some value is called an temporal deadzone so whenever we try to access a variable bewteen it ,then it would result in an reffrence error
+// NORMALE CASE FOR VAR
 
 var a = 2
 
