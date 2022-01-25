@@ -19,6 +19,7 @@
 // Synchronous means one at a time i.e. one line of code is being executed at time in order the code appears.
 // So in JavaScript one thing is happening at a time
 
+// When we are trying to access and variable which is not been defined yet then it would result in an reference error 
 
 //variable declartion with let var and const
 
@@ -57,7 +58,7 @@ console.log(a);
 // But in case of "let" keyword we could not redeclare the same variable where was this was allowed in var
 //but here re-defining is allowed , same as that in var keyword javascript
 
-//redeclaring(not allowed) and redefing/reassigning (allowed) this two are two diffrent things
+//redeclaring(not allowed) will result in an syantax error and redefing/reassigning (allowed) this two are two diffrent things
 
 let  b = 2;
 console.log(b);
