@@ -24,22 +24,22 @@
 // [Function: greet] function
 
 
-// ACCESS BY VALUE(STACK)
+// ACCESS BY VALUE-------------------------------(STACK)
 
-// let fp = "sidd"
-// let dp = fp
+let fp = "sidd"
+let dp = fp
 
-// fp = "pra"
+fp = "pra"
 
-// console.log(fp)
-// console.log(dp)
+console.log(fp)
+console.log(dp)
 
 
 // output:(As here this are primitive data type(STRING) where every thing is stored in stack memory unlike non premtive data type)
 // pra
 // sidd
 
-// ACCESS BY REFFRENCE(HEAP)
+// ACCESS BY REFFRENCE---------------------------(HEAP)
 
 let firstPerson = {
     name:'Siddhant',
