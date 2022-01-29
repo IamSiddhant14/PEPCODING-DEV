@@ -30,9 +30,9 @@ console.log("*****************************************************************")
 
 console.log("Before");
 
-fs.readFile('f2.txt',cb);
+fs.readFile('f2.txt',cb);//same template every time, that is filename and then call back function name without calling it
 
-function cb(err , data){
+function cb(err , data){//same template every time, that is error and then after that data
 
     if(err){
         console.log(err);
