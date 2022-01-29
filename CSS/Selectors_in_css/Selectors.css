@@ -34,8 +34,7 @@
             color :pink;
         }
 
-
-
+        
         /* Children Selector */
         /* Here each tag should be next to each other , like div tag then just next tag should be the h1 tag after that next tag should be the span tag*/
         /* Here it mean that change the  color and font of all the span tag which is a children too the h1 tag and also the div is the grand parent to the span tag such that one tag should be the next to the other*/
@@ -62,6 +61,7 @@
             font-style: italic ;
         }
 
+
         /* Classes Decendant Selector */
 
         .c1 span .c2{
@@ -69,8 +69,7 @@
             font-size: xx-large;   
         }
 
-
-        /* Id selector ,id are unique , never use id for styling purposes instead use it for identification purposes #Industrie rule*/
+        /* Id selector ,id are unique , never use id for styling purposes instead use it for identification purposes #Industry rule*/
         #one{
             color: darkorchid;
         }
@@ -95,4 +94,9 @@
         /* Combination */
         #the-one>.c1.c2{
             color: black;
+        }
+
+        #the-one#the-two{
+            font-style: italic ;
+            text-decoration: underline;
         }
