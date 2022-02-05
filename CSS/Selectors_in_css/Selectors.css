@@ -39,7 +39,7 @@
         /* Here each tag should be next to each other , like div tag then just next tag should be the h1 tag after that next tag should be the span tag*/
         /* Here it mean that change the  color and font of all the span tag which is a children too the h1 tag and also the div is the grand parent to the span tag such that one tag should be the next to the other*/
         div > h1 > span{
-            color: rgb(80, 255, 10);
+            color: rgb(85, 245, 22);
             font-size: xx-large;
         }
 
