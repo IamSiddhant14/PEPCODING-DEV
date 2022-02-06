@@ -40,13 +40,13 @@ let square2 = square(6)
 console.log(square1)
 console.log(square2)
 
-// In phase-one(MEMORY AREA) :
+// In phase-one (MEMORY ALLOCATION) :
 
 // Memory is been allocated to all the variables and the function,where variables will be having intial value as undefined eg- n : undefined,And in the case of function the entire function body is allocated  square : { let square = n*n;return square }
 
-// In phase-two :
+// In phase-two (CODE EXECUSITION) :
 
-// For variables ,now there values are been provided to the them which was having undefined as there value before and for function invocation NOW FORMATION OF EXECUSTION CONTEXT FOR THAT PARTICULAR FUNCTION INVOCATION where the variables present inside that function gets memory allocated frist and intially there value is undefined and after the completion the CODE EXECUTION takes place where now to the variables ge there original value is been assigned to it
+// For variables ,now there values are been provided to the them which was having undefined as there value before and for function invocation NOW FORMATION OF A NEW EXECUSTION CONTEXT FOR THAT PARTICULAR FUNCTION INVOCATION where the variables present inside that function gets memory allocated frist and intially there value is undefined and after the completion the CODE EXECUTION takes place where now to the variables ge there original value is been assigned to it
 
 // Return statement states to return the control of the function from the place where the function was been invoked
 
