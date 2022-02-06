@@ -1,18 +1,19 @@
 //Javascript by default an Synchronous language and also it will always would be single threaded in nature whether we introduce its Asynchronous behaviour as well ( executed with the web api provided by the browsers)
+
 // Synchronous JavaScript: As the name suggests synchronous means to be in a sequence, i.e. every statement of the code gets executed one by one. So, basically a statement has to wait for the earlier statement to get executed. 
 
 const fs = require('fs');
 
 console.log("Before");
 
-let data = fs.readFileSync("f1.txt");
-
+let data = fs.readFileSync('f1.txt');
+ 
 console.log("  "+ data);
 
 console.log("After");
 
 
-console.log("*****************************************************************");
+console.log("*****************************************************************"); 
 
 
 

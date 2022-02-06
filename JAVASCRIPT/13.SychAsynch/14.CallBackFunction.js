@@ -1,6 +1,4 @@
-// Callback function - any function that is passed as an
-//argument to another function is known
-//as a callback function
+// Callback function - any function that is passed as an argument to another function is known as a callback function
 
 function printFristName(fristName , cb , cb1){
 
@@ -18,7 +16,6 @@ function printLastName(lastname){
 function printAge(age){
     console.log(age);
 }
-
 
 
 printFristName("Siddhant" , printLastName , printAge);
