@@ -7,7 +7,7 @@ let obj ={}; //Creating an empty object
 let cap ={
     fristname : 'Siddhant',//string
     lastname : "sharma",//string
-    friends : [ 'Siddhant-55', 'no-one'], //Array
+    friends : [ 'Siddhant-55', 'no-one', 8], //Array
     placedatgoodpbc : true, //Boolean
     age: 21, //integer
     placedatsbc : true,//Boolean
