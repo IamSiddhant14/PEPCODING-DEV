@@ -32,8 +32,29 @@ console.log( arr );
 
 let nameArr = ['Siddhant','Prakhar','Niru','bhushan','harshita'];
 let nameArr1 = nameArr.map(function(v){ //As this function dont need to called some where else
-    
+
     return v;//Here return statement is important or else when we will try to print this "newArr2" then it will result in an array where all element would be undefined
 })
 
 console.log(nameArr1);
+
+
+
+let nameArr2 = ['Vishal Kumar' , 'Vaibahv Rawal' , 'Anmol Taneja']
+
+let ans1 = nameArr2.map(function(v){
+    let a = v.split(" ");
+    let Fristname = a[0];
+    let lastname = a[1];
+    return Fristname+" "+lastname;
+})
+
+//Output
+// [ 'Vishal Kumar', 'Vaibahv Rawal', 'Anmol Taneja' ]
+
+let ans2 = nameArr2.join("&")
+//Output
+// Vishal Kumar&Vaibahv Rawal&Anmol Taneja
+
+console.log(ans1);
+console.log(ans2);
