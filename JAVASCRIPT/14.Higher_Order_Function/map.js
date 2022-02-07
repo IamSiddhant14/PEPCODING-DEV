@@ -58,3 +58,24 @@ let ans2 = nameArr2.join("&")
 
 console.log(ans1);
 console.log(ans2);
+
+
+
+const transactions = [1000, 3000, 4000, 2000, -898, 3800, -4500];
+const inrtToUsd = 74;
+
+let amountInUSD = transactions.map(function(v){
+    let val = (v/inrtToUsd).toFixed(2);//Convertor
+    // console.log("$ "+val)
+    // return ;
+    return val;
+})
+
+console.log(amountInUSD);
+
+// amountInUSD.map(function(v){
+//     console.log("$ "+v)
+// })
+for( let ele in amountInUSD){
+    console.log("$ "+amountInUSD[ele]);
+}
