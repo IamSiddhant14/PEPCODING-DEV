@@ -1,5 +1,5 @@
 //There are two type of data type in javascript :
-// 1.> primitive - Number ,string , boolean ---------- heap per he store hota hai or refrence variable bhi heap per he banta hai
+// 1.> primitive - Number ,string , boolean ---------- stack per he store hota hai or refrence variable bhi stack per he banta hai
 // 2.> Reference - Array ,Objects ,Function ---------- heap per store hota hai and stack per refrence variable banta hai
 
 
@@ -40,9 +40,7 @@ console.log(a);
 //javascript is an dyanimically typed language that is dont need to specifie the type of variable as such
 // semicolon is not compulsory in javascript
 // Javascript is a single threaded language not multithreaded 
-//javascript is a sychronus language
-
-
+//javascript is a sychronus language by default.
 
 //let and const :-
 
@@ -60,7 +58,7 @@ console.log(a);
 
 //redeclaring(not allowed) will result in an syantax error and redefing/reassigning (allowed) this two are two diffrent things
 
-let  b = 2;
+let b = 2;
 console.log(b);
 
 //This will result in an error
@@ -92,7 +90,7 @@ if( flag == true){
 //problem -2 with var :
 
 if(10 % 2 ==0){
-    var c = 2;
+    var c = 277777777777777;
     console.log(c);
 }
 
@@ -102,11 +100,11 @@ console.log(c); //no error
 //Here error as let has its existance within the block only that is block scope
 
 
-// if( 10%2 ==0){
+if( 10%2 ==0){
 // Here this k doesnt exist after this block
-//     let k = 1;
-//     console.log(k);
-// }
+    let k = 1;
+    console.log(k);
+}
 // console.log(k); 
 
 
