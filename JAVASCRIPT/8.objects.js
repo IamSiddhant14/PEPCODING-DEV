@@ -1,5 +1,5 @@
 //Objects - They exist in key value pair 
-//key value collectively is know as property
+//key && value collectively is know as property
 //keys are by default string if written in double quotes or not in object
 
 let obj ={}; //Creating an empty object
@@ -47,9 +47,11 @@ cap.rich();
 
 //Applying loop on a object (for-in loop)  :::::
 
-for( let key in cap){
-    console.log(key , cap[key]);
+
+for( let key in cap){//Here cap is the name of the object
+    console.log(key , cap[key]);// Here "ele "is the key while iterating over an object
 }
+
  
 // Objects having key value starting from "-" or any numbet is consider invalid to acces that key in an object we
 // need to use the squre bracket notation and dot notation wont work here
