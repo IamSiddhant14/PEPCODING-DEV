@@ -23,13 +23,12 @@ console.log(cars);
 cars[3]="4";
 console.log(cars);
 
-
 //Here the middle element will be "Empty"
 cars[7]="7";
 console.log(cars);
 
 // OUTPUT:
-1,1,2,3,4,empty,empty,7
+// 1,1,2,3,4,empty,empty,7
 
 //Arrays length
 
@@ -40,7 +39,7 @@ console.log(cars.length);
 //pop()- takes element from the end of the array
 
 let remainigcars = cars.pop();
-console.log(remainingcars); // poped element
+console.log(remainigcars); // poped element
 console.log(cars); // remaining elements
 
 
@@ -58,13 +57,18 @@ console.log(cars);
 
 //UnShift - Addeds the element to the starting of the array
 
-
 cars.unshift(0);
 console.log(cars);
 
-for( let ele in cars){
-    console.log(ele,cars[ele])
+for( let ele in cars){//Here cars is the name of the array
+    console.log(ele,cars[ele]) // Here "ele" is the index from zero when iterating over the array
 }
+
+
+// for( let key in cap){//Here cap is the name of the object
+//     console.log(key , cap[key]);// Here "ele "is the key while iterating over an object
+// }
+
 
 //MultiDimensional Array
 
