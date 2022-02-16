@@ -39,7 +39,6 @@ let nameArr1 = nameArr.map(function(v){ //As this function dont need to called s
 console.log(nameArr1);
 
 
-
 let nameArr2 = ['Vishal Kumar' , 'Vaibahv Rawal' , 'Anmol Taneja']
 
 let ans1 = nameArr2.map(function(v){
@@ -79,3 +78,7 @@ console.log(amountInUSD);
 for( let ele in amountInUSD){
     console.log("$ "+amountInUSD[ele]);
 }
+
+
+//Terniary operation 
+// condition ? output1 : output2
