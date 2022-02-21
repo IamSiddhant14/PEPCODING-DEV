@@ -4,13 +4,11 @@
 // A Higher-Order function is a function that receives a function as an argument
 // or returns the function as output.
 
-
-
 //************************************* MAP *********************************
 
 let arr = [2, 5, 9, 8, 15, 11, 6];
 
-// let ans = arr.map(function(v){ , As this function dont need to called some where else
+// let ans = arr.map(function(v){ , As this function dont need to called some wherelse therefore it could be an unnamed function as well
 //     return v*v;
 // });
 
@@ -23,7 +21,6 @@ let ans = arr.map(function square (v){//Here this function is an Call back funct
 console.log( ans );
 console.log( arr );
 
-
 //map is itseLf a function
 //map takes a callback function as an arg
 //map will call the callback functions as many times as the elements in the array
@@ -32,26 +29,25 @@ console.log( arr );
 
 let nameArr = ['Siddhant','Prakhar','Niru','bhushan','harshita'];
 let nameArr1 = nameArr.map(function(v){ //As this function dont need to called some where else
-
     return v;//Here return statement is important or else when we will try to print this "newArr2" then it will result in an array where all element would be undefined
-})
+});
 
 console.log(nameArr1);
 
 
-let nameArr2 = ['Vishal Kumar' , 'Vaibahv Rawal' , 'Anmol Taneja']
+let nameArr2 = ['Vishal Kumar' , 'Vaibahv Rawal' , 'Anmol Taneja'];
 
 let ans1 = nameArr2.map(function(v){
-    let a = v.split(" ");
+    let a = v.split(" ");//Here a is an array
     let Fristname = a[0];
     let lastname = a[1];
-    return Fristname+" "+lastname;
-})
+    return Fristname+" opop "+lastname;
+});
 
 //Output
 // [ 'Vishal Kumar', 'Vaibahv Rawal', 'Anmol Taneja' ]
 
-let ans2 = nameArr2.join("&")
+let ans2 = nameArr2.join("&");
 //Output
 // Vishal Kumar&Vaibahv Rawal&Anmol Taneja
 

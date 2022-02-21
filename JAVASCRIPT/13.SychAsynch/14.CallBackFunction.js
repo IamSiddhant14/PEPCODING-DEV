@@ -1,8 +1,6 @@
 // Callback function - Any function that is passed as an argument to another function is known as a callback function
 // Callback function are not by default a synch in nature , and they became asynch in nature only when an inse an asyn function
 
-
-
 function printFristName(fristName , cb , cb1){
 
     console.log(fristName);

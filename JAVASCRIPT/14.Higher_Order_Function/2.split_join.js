@@ -2,13 +2,12 @@
 //Split
 let str = 'pepcoder'
 
-let partsOfString = str.split('c')
+let partsOfString = str.split('c')//return an array
 // split function will split a string according to a passed paramerter
 // and will return the left and the right part in an array
 
 console.log(partsOfString) // [pep , oder]
 
- 
 //Join
 
 let joinedStr = partsOfString.join('c')
