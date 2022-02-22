@@ -8,5 +8,5 @@
 
 //Advanced system variables --> enviroment variable --> System variable --> path --> new --> C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Node.js -->paste -->ok
 
-//Javacript could run in two enviroment one is browser enviroment and another is node enviroment
+//Javacript could run in two enviroment one is browser enviroment(Chrome v8 engine) and another is node enviroment
 
