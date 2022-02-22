@@ -1,8 +1,8 @@
+
 // function expects arguments 
 // The value which we pass during calling a function is called parameters
 // In js we dont need to define the return type
 // function increases code re-use-ability
-
 
 function add(a, b){ //function declartion
 
@@ -41,16 +41,6 @@ let add = (function(a,b){
     console.log(a+b);
 
 })(10, 20);
-
-
-
-
-
-
-
-
-
-
 
 
 

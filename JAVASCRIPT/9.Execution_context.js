@@ -3,8 +3,6 @@
 //EVERYTHING IN JAVASCRIPT HAPPENS INSIDE AN EXECUSTION CONTEXT WHEN WE RUN A JAVASCRIPT PROGRAM IN OUR MACHINE AN EXECUSTION CONTEXT IS BEEN CREATED 
 //The default place where our entire code resites is called an global execustion context
 
-
-
 //****************************************************   WATCH THIS VEDIO : https://www.youtube.com/watch?v=iLWTnMzWtj4     ******************************************************* */
 // var a = 2;
 // var b = 3;
