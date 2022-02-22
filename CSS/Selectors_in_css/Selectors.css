@@ -1,7 +1,8 @@
 /* cascading style sheet */
 
 /* We could incoperate css in our website using the following methods
--->Inline - That is provinding prop in the same very line
+ 
+-->Inline - This is provinding prop in the same very line and it has the heighest priority
 -->Internal - Using style tag which is located in the head
 -->External - Use link tag to link our external style sheet
 
@@ -9,7 +10,6 @@
 
 
 /* Webscrapping - Extracting important data from some other website for the sake of our use is called using webscrapping  */
-
 
         /* In style tag we right CSS */
         /* css always require an semicolon(;) at the end of each property so as to ensure property break and start an new property */
@@ -25,7 +25,6 @@
             color: blue;
         }
 
-
         /* Decendant Selector */
         /* That is one tag inside another not neccasery to be next to each other */
         /* Here it mean that change the colour of all the list item present inside div tag */
@@ -38,6 +37,7 @@
         /* Children Selector */
         /* Here each tag should be next to each other , like div tag then just next tag should be the h1 tag after that next tag should be the span tag*/
         /* Here it mean that change the  color and font of all the span tag which is a children too the h1 tag and also the div is the grand parent to the span tag such that one tag should be the next to the other*/
+        
         div > h1 > span{
             color: rgb(85, 245, 22);
             font-size: xx-large;
