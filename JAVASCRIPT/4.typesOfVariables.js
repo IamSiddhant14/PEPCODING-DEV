@@ -105,7 +105,7 @@ if( 10%2 ==0){
     let k = 1;
     console.log(k);
 }
-// console.log(k); 
+// console.log(k); This will result in an error
 
 
 // I hereby plege to use "let" only and not "var" because of the following problems (Will get the refrens later to this sentence)
