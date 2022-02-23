@@ -1,7 +1,6 @@
 // ************ Node -> Strict Mode (REACT)
 'use strict'
 
-
 // console.log(this) // global area  // Empty Object
 
 // ********************************************************

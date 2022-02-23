@@ -1,7 +1,5 @@
 //Window object carries all the bowser methods
 
-
-
 //********************************************************
 
 //console.log(this) // It will result in window objectwindow Object
