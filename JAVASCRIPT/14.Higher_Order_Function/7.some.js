@@ -9,5 +9,5 @@ let anyDeposit = transactions.some(function(n){
 })
 
 console.log(anyDeposit)
-
+//true
 
