@@ -55,3 +55,6 @@ for( let key in cap){//Here cap is the name of the object
  
 // Objects having key value starting from "-" or any numbet is consider invalid to acces that key in an object we
 // need to use the squre bracket notation and dot notation wont work here
+
+
+// Arrays , Functions , Promises , objects are all objects
