@@ -1,5 +1,5 @@
 //Window object carries all the bowser methods
-
+'use strict'
 //********************************************************
 
 //console.log(this) // It will result in window objectwindow Object
