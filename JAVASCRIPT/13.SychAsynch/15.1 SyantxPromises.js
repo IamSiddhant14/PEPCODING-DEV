@@ -10,7 +10,9 @@ let promise = new Promise(function(resolve , reject){
     }
 })
 
-promise.then(function(data){
+promise
+
+.then(function(data){
 
     console.log('EQUAL', data);
 
