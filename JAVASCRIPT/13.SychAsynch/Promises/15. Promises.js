@@ -31,7 +31,8 @@ let promise = fs.promises.readFile("f1.txt");//Promise are async in nature and h
 
 //console.log(promise)//Pending stage
 
-// FullFilled
+// FullFilled, once the promise get resolved then it is been handled by "then "and the value passed while geeting resolved is been recieved in the callback function which is been written inside of "then"
+
 promise.then(function (data) { // Fullfilled stage ,RESOLVE
   console.log("File Data -> " + data);
 });
