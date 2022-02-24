@@ -1,33 +1,30 @@
-const fs = require("fs");
+const fs = require('fs');
 
-console.log("Before");
+let f1p = fs.promises.readFile('./f1.txt');
 
-fs.readFile("f1.txt", cb1);
+f1p.then(cb);
 
-function cb1(err, data) {
-  if (err) {
-    console.log(err);
-  } else {
-    console.log(" " + data);
-    fs.readFile("f2.txt", cb2);
-  }
+function cb(data){
+
+    console.log('File data ->' + data);
+    let f2p = fs.promises.readFile('./f2.txt');
+
+    f2p.then(cb2);
 }
 
-function cb2(err, data) {
-  if (err) {
-    console.log(err);
-  } else {
-    console.log(" " + data);
-    fs.readFile("f3.txt", cb3);
-  }
+function cb2 (data){
+
+    console.log("File data -->"+ data);
+    let f3p = fs.promises.readFile('./f2.txt');
+
+    f3p.then(cb3);
+     
+
 }
 
-function cb3(err, data) {
-  if (err) {
-    console.log(err);
-  } else {
-    console.log(" " + data);
-  }
+function cb3 (data){
+
+    console.log("File data -->"+ data); 
 }
 
-console.log("After");
+
