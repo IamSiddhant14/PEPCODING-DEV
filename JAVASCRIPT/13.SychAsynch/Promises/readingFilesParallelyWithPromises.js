@@ -15,12 +15,12 @@ function cb(data){
 f1p.then(function(data){
   console.log(" "+data)
     cb(data);
-    cb;
+    // cb;
 })
 
 f2p.then(cb);//In case of passing an callback function no need pass the parameters , but while declaring the function there it-self then we need to pass in the parameters , in fact we never pass parameter in case call back function
 
-f3p. then(cb);
+f3p.then(cb);
 
 
 //*********************************************************/
