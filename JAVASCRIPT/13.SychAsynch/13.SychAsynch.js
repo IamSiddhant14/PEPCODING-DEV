@@ -8,14 +8,11 @@ console.log("Before");
 
 let data = fs.readFileSync('f1.txt');
  
-console.log("  "+ data);
+console.log("  LIne 11 "+ data);
  
 console.log("After");
 
-
 console.log("*****************************************************************"); 
-
-
 
 // Asynchronous JavaScript :
 
@@ -42,11 +39,11 @@ function cb(err , data){//same template every time, that is error and then after
         return;
     }
 
-    console.log(" "+data);
+    console.log(" File2 "+data);
 
 }
 
-console.log("  "+ data);
+// console.log("  "+ data);
 
 console.log("After");
 
