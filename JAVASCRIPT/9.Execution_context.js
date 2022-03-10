@@ -4,6 +4,7 @@
 //The default place where our entire code resites is called an global execustion context
 
 //****************************************************   WATCH THIS VEDIO : https://www.youtube.com/watch?v=iLWTnMzWtj4     ******************************************************* */
+
 // var a = 2;
 // var b = 3;
 
@@ -11,7 +12,6 @@
 //     var sum = m+n
 //     return sum
 // }
-
 
 // var sum1 = add(1 , 2)
 // var sum2 = add(a , b)
@@ -36,7 +36,7 @@ console.log(square2)
 
 // In phase-one (MEMORY ALLOCATION) :
 
-// Memory is been allocated to all the variables and the function,where variables will be having intial value as undefined eg- n : undefined,And in the case of function the entire function body is allocated  square : { let square = n*n;return square }
+// Memory is been created then been alocated for all the variables and the function,where variables will be having intial value as undefined eg- n : undefined,And in the case of function the entire function body is allocated  square : { let square = n*n;return square }
 
 // In phase-two (CODE EXECUSITION) :
 

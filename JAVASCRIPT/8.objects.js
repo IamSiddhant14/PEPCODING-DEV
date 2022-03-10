@@ -2,7 +2,7 @@
 //key && value collectively is know as property
 //keys are by default string if written in double quotes or not in object
 
-let obj ={}; //Creating an empty object
+let obj = {}; //Creating an empty object
 
 let cap ={
     fristname : 'Siddhant',//string
@@ -40,13 +40,12 @@ console.log(cap['friends']["0"]);
 console.log(cap['friends'][0]);//We could either write 0 in commas or without it as well but it is not true for strings
 console.log(cap.address.city);
 console.log(cap['address']['city']);//Here single commas is compulsory
-cap.rich();
+cap.rich();//Her "cap.rich" wont run but "cap.rich()" will
 
 
 //Here everything which is written inside bracket should be in semicolons expect integers
 
 //Applying loop on a object (for-in-loop)  :::::
-
 
 for( let key in cap){//Here cap is the name of the object
     console.log(key , cap[key]);// Here "ele "is the key while iterating over an object

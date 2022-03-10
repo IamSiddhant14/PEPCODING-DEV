@@ -14,6 +14,7 @@ function add(a, b){ //function declartion
 
 let sum = add( 5 ,4); //function invokation/calling
 console.log("The sum is "+sum);
+console.log("The sum is ",sum);
 
 
 //In javascript functions are know as frist class citizens
@@ -27,14 +28,15 @@ let syaHi = function op(a){
 syaHi("b");
 
 //anonynmus function expression
-let syaHi = function(a){
+let syaHii = function(a){
     console.log(a);
 }
 
 syaHi("b");
 
-
 //IIFE  ( Immediately invoked function expression ) Auto calling
+
+//As soon as this line is been executed / runned this function get invoed or get called
 
 let add = (function(a,b){
 
@@ -44,4 +46,6 @@ let add = (function(a,b){
 
 
 
-   
+   let ad = (function(a, b){
+       return a+b;
+   })(10, 69);

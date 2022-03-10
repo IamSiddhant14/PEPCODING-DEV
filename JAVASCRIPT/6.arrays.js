@@ -54,7 +54,6 @@ let shiftedElement = cars.shift();
 console.log(shiftedElement);
 console.log(cars);
 
-
 //UnShift - Addeds the element to the starting of the array
 
 cars.unshift(0);
@@ -63,7 +62,10 @@ console.log(cars);
 for( let ele in cars){//Here cars is the name of the array
     console.log(ele,cars[ele]) // Here "ele" is the index from zero when iterating over the array
 }
-
+console.log(cars);
+cars.forEach(function(ele, index){
+    console.log(ele,"OP", index)
+})
 
 // for( let key in cap){//Here cap is the name of the object
 //     console.log(key , cap[key]);// Here "ele "is the key while iterating over an object

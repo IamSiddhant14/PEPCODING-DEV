@@ -29,7 +29,7 @@ console.log( arr );
 
 let nameArr = ['Siddhant','Prakhar','Niru','bhushan','harshita'];
 let nameArr1 = nameArr.map(function(v){ //As this function dont need to called some where else
-    return v;//Here return statement is important or else when we will try to print this "newArr2" then it will result in an array where all element would be undefined
+    return v;//Here return statement is important or else when we will try to print this "newArr1" then it will result in an array where all element would be undefined
 });
 
 console.log(nameArr1);
@@ -53,8 +53,6 @@ let ans2 = nameArr2.join("&");
 
 console.log(ans1);
 console.log(ans2);
-
-
 
 const transactions = [1000, 3000, 4000, 2000, -898, 3800, -4500];
 const inrtToUsd = 74;

@@ -1,16 +1,13 @@
 //Java is an strongly typed language whereas javascript is an lossly typed/Dynamically typed language , that is we dont need to define the data type before declaring the variable
 
 let a = 'Hello'
-
 console.log(a , typeof(a))
 
 let b = 2.5
-
 console.log(b , typeof(b))
 
 let c = true
 console.log(c , typeof(c))
-
 
 let d = undefined
 console.log(d , typeof(d))

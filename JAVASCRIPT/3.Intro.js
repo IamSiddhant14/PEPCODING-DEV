@@ -9,12 +9,16 @@ console.log( "Hello World");
 // There are three variables in  which are javascript var , let ,const .
 //Javascript is a dyancmically typed language that is we dont to define type while declaring a variable
 var a ="hello a";
+
+var a = "hello A"
 // var b = "hello";
 console.log(a);
 
 //THis let variable has value which is subject to each iteration in a for loop or a while loop
 // let a = 1;
-let b = "hello b" ;
+let b ;
+b = "hello b" ;
+
 console.log(b);
 
 //const Here in this we store const data

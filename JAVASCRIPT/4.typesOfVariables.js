@@ -1,6 +1,7 @@
 //There are two type of data type in javascript :
-// 1.> primitive - Number ,string , boolean ---------- stack per he store hota hai or refrence variable bhi stack per he banta hai
-// 2.> Reference - Array ,Objects ,Function ---------- heap per store hota hai and stack per refrence variable banta hai
+// 1.> primitive - Number ,String , boolean ---------- stack per he store hota hai or reference variable bhi stack per he banta hai
+
+// 2.> Reference - Array ,Objects ,Function ---------- heap per store hota hai and stack per reference variable banta hai 
 
 
 // We will be dealing with two type of enviroment for now one is the browser and the another one is node js
@@ -19,7 +20,7 @@
 // Synchronous means one at a time i.e. one line of code is being executed at time in order the code appears.
 // So in JavaScript one thing is happening at a time
 
-// When we are trying to access and variable which is not been defined yet then it would result in an reference error 
+// When we are trying to access an variable which is not been defined yet then it would result in an reference error 
 
 //variable declartion with let var and const
 
@@ -37,6 +38,7 @@ console.log(a);
 // assigning value to "a" as null
 a= null;
 console.log(a);
+
 //javascript is an dyanimically typed language that is dont need to specifie the type of variable as such
 // semicolon is not compulsory in javascript
 // Javascript is a single threaded language not multithreaded 
@@ -72,6 +74,12 @@ console.log(b);
 //Whether the number is prime or not
 let flag = true;
 let num = 13;
+
+let a;
+
+a= 10;//Although this is possible 
+
+
 
 for( let i =2 ; i*i < num ; i++){//In loop we should not use "var" keyword instead we should use "let "as its value is saved for a particular iteration
     //"let" has block scope that is it have exsitance within the block only unlike "var " which has function scope
