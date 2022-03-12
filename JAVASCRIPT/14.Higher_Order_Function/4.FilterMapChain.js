@@ -37,9 +37,9 @@ let ans = arr.filter(function(v){
     if(v.gender == "F"){
         return true;
     }
-    else{
-        return false;
-    }
+    // else{
+    //     return false;
+    // }
 
 }).map(function(v){
     let val = v.age;
