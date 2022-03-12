@@ -18,6 +18,8 @@ let ans = arr.map(function square (v){//Here this function is an Call back funct
     return v*v;
 });
 
+// The major diffrence bewteen "foreach" method and "map" is in "foreach" we perfome operation for each element in the arr while in case of "map" we create an new array and put the modified elements in that array
+
 console.log( ans );
 console.log( arr );
 
@@ -76,3 +78,4 @@ for( let ele in amountInUSD){
 
 //Terniary operation 
 // condition ? output1 : output2
+

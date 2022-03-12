@@ -46,4 +46,7 @@ let ans = arr.filter(function(v){
     return val;
 })
 
-console.log(ans)
+console.log(ans);
+
+// output
+// [ 24, 44, 28, 47 ]
