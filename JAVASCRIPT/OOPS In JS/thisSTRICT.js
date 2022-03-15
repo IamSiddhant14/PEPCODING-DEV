@@ -26,20 +26,20 @@
 
 // ********************************************************
 
-let obj2 = {
-       name :'Mrinal',
+// let obj2 = {
+//        name :'Mrinal',
 
-       f: function f(){
-              function g(){
-                     console.log(this)
-              }
+//        f: function f(){
+//               function g(){
+//                      console.log(this)
+//               }
 
-              g();
-       }
-}
+//               g();
+//        }
+// }
 
 
-obj2.f()  //This will result in undefined
+// obj2.f()  //This will result in undefined
 
 
 //Sumarry -

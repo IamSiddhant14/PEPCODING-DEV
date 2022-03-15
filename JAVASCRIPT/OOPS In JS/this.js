@@ -1,10 +1,11 @@
 // There exist two code execustion modes in javascript one is the strict mode and another one is the non-strict mode , in strict mode as the the name sugget its very strict with respect to the syantx unlike in the case of an non strict mode. To enable strict mode we simply write -  "use strict"; 
+
 // default behaviour is non-strict mode
 
 // ************ Node -> non Strict Mode 
 
 
-//console.log(this) // global area  // Empty Object
+// console.log(this) // global area  // Empty Object
 
 
 // ********************************************************
