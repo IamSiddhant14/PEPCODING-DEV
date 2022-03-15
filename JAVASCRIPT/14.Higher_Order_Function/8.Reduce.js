@@ -20,3 +20,5 @@ let balance = transactions.filter(function(amount){
 }).reduce(function(sum, amount){//
       return sum+amount//This is returned to the next iteration with updated sum value to sum+amount
  } , 0)//here this 0 is the accumulator 
+
+ console.log(balance);

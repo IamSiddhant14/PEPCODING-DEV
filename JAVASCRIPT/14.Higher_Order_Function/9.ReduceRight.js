@@ -4,8 +4,8 @@ let arr = [2 , 3, 4, 5, 6]
 
 
 let sumFromRight = arr.reduceRight(function(acc , value){
+      console.log( " --> " + value)
       let upadtedSum = acc+value
-      console.log(upadtedSum)
       return upadtedSum
 } , 0)
 
