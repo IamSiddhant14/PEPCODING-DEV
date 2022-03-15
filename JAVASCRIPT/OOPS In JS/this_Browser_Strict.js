@@ -26,16 +26,16 @@
 // obj.f() //This will result in object itself 
 
 
-// let obj = {
-//        f: function(){
-//               function g(){
-//                      console.log(this)
-//               }
-//               g()
-//        }
-// }
+let obj = {
+       f: function(){
+              function g(){
+                     console.log(this)
+              }
+              g()
+       }
+}
 
-// obj.f() //This will result window object
+obj.f() //Undefined
 
 
 

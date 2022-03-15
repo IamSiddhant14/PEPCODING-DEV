@@ -2,7 +2,7 @@
 
 //********************************************************
 
-//console.log(this) // It will result in window objectwindow Object
+//console.log(this) // It will result in window object
 
 //********************************************************
 
