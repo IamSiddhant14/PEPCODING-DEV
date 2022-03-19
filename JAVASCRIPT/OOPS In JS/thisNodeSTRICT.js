@@ -5,7 +5,6 @@ console.log(this) // global area  // Empty Object
 
 // ********************************************************
 
-
 function f(){
        console.log(this)
 }
