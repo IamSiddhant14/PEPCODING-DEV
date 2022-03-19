@@ -2,38 +2,38 @@
 'use strict'
 //********************************************************
 
-//console.log(this) // It will result in window objectwindow Object
+console.log(this) // It will result in window objectwindow Object
 
 //********************************************************
 
-// function f(){
-//        console.log(this)
-// }
+function f(){
+       console.log(this)
+}
 
-// f() //Undefined
+f()//Undefined
 
 
 //********************************************************
 
-// let obj = {
-//     f: function(){
-//            console.log(this)
-//     }
-// }
+let obj = {
+    f: function(){
+           console.log(this)
+    }
+}
 
-// obj.f() //This will result in object itself 
+obj.f() //This will result in object itself 
 
 
-// let obj = {
-//        f: function(){
-//               function g(){
-//                      console.log(this)
-//               }
-//               g()
-//        }
-// }
+let obj1 = {
+       f: function(){
+              function g(){
+                     console.log(this)
+              }
+              g()
+       }
+}
 
-// obj.f() //Undefined
+obj1.f() //Undefined
 
 
 

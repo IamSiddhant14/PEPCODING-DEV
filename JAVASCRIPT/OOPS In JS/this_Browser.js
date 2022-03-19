@@ -2,40 +2,40 @@
 
 //********************************************************
 
-//console.log(this) // It will result in window object
+console.log(this) // It will result in window object
 
 //********************************************************
 
-// function f(){
-//        console.log(this)
-// }
+function f(){
+       console.log(this)
+}
 
-// f() //It will result in window object window Object
+f() //It will result in window object window Object
 
 // 
 
 
 //********************************************************
 
-// let obj = {
-//     f: function(){
-//            console.log(this)
-//     }
-// }
+let obj = {
+    f: function(){
+           console.log(this)
+    }
+}
 
-// obj.f() //This will result in object itself 
+obj.f() //This will result in object itself 
 
 
-// let obj = {
-//        f: function(){
-//               function g(){
-//                      console.log(this)
-//               }
-//               g()
-//        }
-// }
+let obj1 = {
+       f: function(){
+              function g(){
+                     console.log(this)
+              }
+              g()
+       }
+}
 
-// obj.f() //This will result window object
+obj1.f() //This will result window object
 
 
 
