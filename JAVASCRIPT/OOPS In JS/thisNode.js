@@ -5,7 +5,7 @@
 // ************ Node -> non Strict Mode 
 
 
-// console.log(this) // global area  // Empty Object
+console.log(this) // global area  // Empty Object
 
 
 // ********************************************************
@@ -13,45 +13,45 @@
 
 // inside a function
 
-// function f(){
-//        console.log(this)  
+function f(){
+       console.log(this)  
 
-//THIS WILL RESULT IN AN GLOBAL OBJECT( Global obj != Window Object as both have diffrent poles apart property in node we have global object and not window object)
-// }
+// THIS WILL RESULT IN AN GLOBAL OBJECT( Global obj != Window Object as both have diffrent poles apart property in node we have global object and not window object)
+}
 
-// f()
+f()
 
 // ********************************************************
 
 
 // inside a function inside an  Object
 
-// let obj ={
-//    name : 'rahul',
+let obj ={
+   name : 'rahul',
 
-//    f:function(){
-//          console.log(this) 
-//    }
-// }
+   f:function(){
+         console.log(this) 
+   }
+}
 
-// obj.f() //It will return (obj) object itself.
+obj.f() //It will return (obj) object itself.
 
 
 // ********************************************************
 
 
-// let obj2 ={
-//     name :'Rahul',
-//     f : function(){
-//            function g(){
-//                   console.log(this)
-//            }
-//            g()
-//     }
+let obj2 ={
+    name :'Rahul',
+    f : function(){
+           function g(){
+                  console.log(this)
+           }
+           g()
+    }
     
-// }
+}
 
-// obj2.f() //THIS WILL RESULT IN AN GLOBAL OBJECT
+obj2.f() //THIS WILL RESULT IN AN GLOBAL OBJECT
 
 
 //Sumarry -
