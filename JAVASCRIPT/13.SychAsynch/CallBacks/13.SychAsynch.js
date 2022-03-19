@@ -18,11 +18,11 @@ console.log("*****************************************************************")
 
 // CALL STACK
 // NODE API LIST  // setTimeout() , DOM APIs , fetch , console.log() 
-// Microstack queue
+// MicroStack queue
 // CallBack queue
 // EVENT LOOP <--> call stack
 
-//while Executing a JavaScript code Every line which is executed from top to bottom while running the code Every single line is been frist pushed into the call stack from where it is decided whether it will be  run in the real time or it would be sent to the node API and registers the callback function in the web API enviroment in case of encounter with an asynchronous function, From the node API's stack as soon as the asynchronous functions complets it task it is been sent to the callback queue  from where on the basis of whether the call stack is empty or not It is been sent for execution To determine whether the call stack is empty or not an event loop is been used Whose function is to determine whether there is something executing in the call stack or not if nothing is being currently executed in the call stack then the async functions are being put into the call stack for execution
+//while Executing a JavaScript code Every line which is executed from top to bottom while running the code Every single line is been frist pushed into the call stack from where it is decided whether it will be  run in the real time or it would be sent to the node API and registers the callback function in the web API enviroment in case of encounter with an asynchronous function, From the node API's stack as soon as the asynchronous functions complets it task it is been sent to the callback queue/Micro task queue from where on the basis of whether the call stack is empty or not It is been sent for execution To determine whether the call stack is empty or not an event loop is been used Whose function is to determine whether there is something executing in the call stack or not if nothing is being currently executed in the call stack then the async functions are being put into the call stack for execution
 
 //All the callBack function which either comes from promise or from fetch goes into the Microtask queue
 
