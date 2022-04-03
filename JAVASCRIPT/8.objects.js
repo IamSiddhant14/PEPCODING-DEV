@@ -4,7 +4,7 @@
 
 let obj = {}; //Creating an empty object
 
-let cap ={
+let cap = {
     fristname : 'Siddhant',//string
     lastname : "sharma",//string
     friends : [ 'Siddhant-55', 'no-one', 8], //Array
@@ -35,6 +35,8 @@ delete cap.placedatsbc ;
 //Accessing element
 console.log(cap);
 console.log(cap.friends[1]);//Dotted notation
+console.log(cap.fristname);//Dotted notation
+console.log(cap['fristname']);//Dotted notation
 console.log(cap['friends']);//Square bracket notation,To be used in loops as dot notation dont work with it
 console.log(cap['friends']["0"]);
 console.log(cap['friends'][0]);//We could either write 0 in commas or without it as well but it is not true for strings
@@ -42,13 +44,12 @@ console.log(cap.address.city);
 console.log(cap['address']['city']);//Here single commas is compulsory
 cap.rich();//Her "cap.rich" wont run but "cap.rich()" will
 
-
 //Here everything which is written inside bracket should be in semicolons expect integers
 
 //Applying loop on a object (for-in-loop)  :::::
 
 for( let key in cap){//Here cap is the name of the object
-    console.log(key , cap[key]);// Here "ele "is the key while iterating over an object
+    console.log(key ,' -->', cap[key]);// Here "ele "is the key while iterating over an object
 }
 
  

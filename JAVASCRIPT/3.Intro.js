@@ -1,4 +1,4 @@
-//Node has given us an enviroment through which we are able to run code in our system itself
+//Node has given us an enviroment through which we are able to run javascript code in our system itself
 //Before node this was not possible as we were able to run javascript on the browser side only
 //Therefore node has provided us with this run time enviroment to run js on our systems also
 
@@ -14,8 +14,10 @@ var a = "hello A"
 // var b = "hello";
 console.log(a);
 
-//THis let variable has value which is subject to each iteration in a for loop or a while loop
+//THis let variable has value which is subject to each iteration in a for loop or a while loop (Blocked Scope)
 // let a = 1;
+//let a = 4; //This is not allowed for let
+
 let b ;
 b = "hello b" ;
 

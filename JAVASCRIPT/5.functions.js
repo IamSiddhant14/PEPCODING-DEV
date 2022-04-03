@@ -9,8 +9,7 @@ function add(a, b){ //function declartion
     // console.log(a+b);
     return a+b;
 
-}
-
+};
 
 let sum = add( 5 ,4); //function invokation/calling
 console.log("The sum is "+sum);

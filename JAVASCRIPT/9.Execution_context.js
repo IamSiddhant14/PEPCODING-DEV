@@ -19,7 +19,6 @@
 // console.log(sum1)
 // console.log(sum2)
 
-
 var n = 2;
 function square(n){
 

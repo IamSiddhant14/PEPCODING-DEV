@@ -2,7 +2,7 @@
 // 1.> primitive - Number ,String , boolean ---------- stack per he store hota hai or reference variable bhi stack per he banta hai
 
 // 2.> Reference - Array ,Objects ,Function ---------- heap per store hota hai and stack per reference variable banta hai 
-
+//   YT : https://www.youtube.com/watch?v=lW_erSjyMeM
 
 // We will be dealing with two type of enviroment for now one is the browser and the another one is node js
 
@@ -102,7 +102,7 @@ if(10 % 2 ==0){
     console.log(c);
 }
 
-console.log(c); //no error
+console.log(c); //no error , only the let and const variables are block scoped and the var type variable isnt block scoped
 
 
 //Here error as let has its existance within the block only that is block scope
@@ -113,11 +113,9 @@ if( 10%2 ==0){
     let k = 1;
     console.log(k);
 }
-// console.log(k); This will result in an error
-
+// console.log(k); This 'let' variable will result in an error but in case of 'var' this wont result in an error
 
 // I hereby plege to use "let" only and not "var" because of the following problems (Will get the refrens later to this sentence)
-
 
 //Const
 
