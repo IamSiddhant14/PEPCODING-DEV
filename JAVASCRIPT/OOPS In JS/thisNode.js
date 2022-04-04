@@ -4,7 +4,6 @@
 
 // ************ Node -> non Strict Mode 
 
-
 console.log(this) // global area  // Empty Object
 
 

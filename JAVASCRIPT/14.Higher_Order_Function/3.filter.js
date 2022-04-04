@@ -11,6 +11,8 @@ let evenNoArr = arr.filter(function(n){
         return true;
     }
 
+    // return  (n % 2 == 0) == true ;
+
 })
 
 console.log(evenNoArr);

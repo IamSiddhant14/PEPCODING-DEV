@@ -47,7 +47,7 @@ let ans1 = nameArr2.map(function(v){
 });
 
 //Output
-// [ 'Vishal Kumar', 'Vaibahv Rawal', 'Anmol Taneja' ]
+//[ 'Vishal opop Kumar', 'Vaibahv opop Rawal', 'Anmol opop Taneja' ]
 
 let ans2 = nameArr2.join("&");
 //Output
