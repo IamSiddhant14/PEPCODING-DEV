@@ -44,3 +44,10 @@ promise.catch(function (err) { // rejected stage , REJECT
 
 //Setteled
 
+
+
+
+
+
+
+
