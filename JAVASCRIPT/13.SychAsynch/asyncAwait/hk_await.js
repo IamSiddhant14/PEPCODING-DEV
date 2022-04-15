@@ -2,6 +2,10 @@
 //npm install puppeteer / npm i puppeteer 
 
 //Automation avoid manuale intervation and is also helpfull in testing an application
+
+// Zoom link : https://zoom.us/rec/play/QjGYyyUZeZbuYLXlICnUkifXhS5xgaSD-YM3IqS7RhIlRwuVFrPIpNK0g4MKcMIAKQmBvw0pUfwzLUI.jWCUPjdPOXDCMLo4?continueMode=true&_x_zm_rtaid=e8J3iR95SnGbj5kbdr6AzA.1649809224017.c6043ebfb1f9f3ad4209d84f794a6bc2&_x_zm_rhtaid=129
+
+
 let puppeteer = require('puppeteer');
 
 const loginLink = "https://www.hackerrank.com/auth/login";
