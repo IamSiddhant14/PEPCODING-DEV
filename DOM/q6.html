@@ -108,10 +108,10 @@
     </div>
     <script>
       // Q Make the filter work
-      let select = document.querySelector("select");
-      select.addEventListener("change",function(){
+      let s = document.querySelector("select");
+      s.addEventListener("change",function(){
 
-          let filterVal = select.value;
+          let filterVal = s.value;
           let allTickets = document.querySelectorAll(".price");
 
           if( filterVal === "None" ){
