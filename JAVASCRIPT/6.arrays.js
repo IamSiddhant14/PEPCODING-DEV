@@ -59,9 +59,11 @@ console.log(cars);
 cars.unshift(0);
 console.log(cars);
 
-for( let ele in cars){//Here cars is the name of the array
+for( let ele in cars){
+    //Here cars is the name of the array
     console.log(ele,cars[ele]) // Here "ele" is the index from zero when iterating over the array
 }
+
 console.log(cars);
 cars.forEach(function(ele, index){
     console.log(ele,"OP", index)
@@ -70,7 +72,6 @@ cars.forEach(function(ele, index){
 // for( let key in cap){//Here cap is the name of the object
 //     console.log(key , cap[key]);// Here "ele "is the key while iterating over an object
 // }
-
 
 //MultiDimensional Array
 
@@ -83,3 +84,4 @@ let matrix = [
 console.log(matrix[0][1]); // OUTPUT - 2
 console.log(matrix[2][1]); // OUTPUT - 8
 
+99

@@ -12,6 +12,10 @@ let arr = [2, 5, 9, 8, 15, 11, 6];
 //     return v*v;
 // });
 
+// let ans = arr.map((v , idx) => { 
+//     return v*idx;
+// });
+
 //Above one will also work
 
 let ans = arr.map(function square (v){//Here this function is an Call back function

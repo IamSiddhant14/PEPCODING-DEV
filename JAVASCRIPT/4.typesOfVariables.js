@@ -138,8 +138,7 @@ console.log("2",d);
 console.log("2 "+d);
 
 
-//var is function scoped , try the below example
-
+//var is function scoped and let/const are both function and blocked scope unlike var which is only function scoped, try the below example
 
 var a = 10;
 function c(){
@@ -149,12 +148,16 @@ function c(){
 c();
 console.log(a);
 
+// output: 30 , 10
+
 
 
 var a = 10;
 if(true){
-    var a = 10;
+    var a = 30;
     console.log(a);
 }
 
 console.log(a);
+
+// output: 30 , 30

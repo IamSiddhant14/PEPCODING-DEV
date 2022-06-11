@@ -5,6 +5,7 @@
 let obj = {}; //Creating an empty object
 
 let cap = {
+
     fristname : 'Siddhant',//string
     lastname : "sharma",//string
     friends : [ 'Siddhant-55', 'no-one', 8], //Array
@@ -19,6 +20,7 @@ let cap = {
     rich : function rich(){  //function
         console.log("1.5 cr per year pacakage"); 
     }
+    
 }
 
 // if in case the name of the variable is invaild or in case we are accessing the prop of the object dynamically then we are suppose to ue only square bracket notation only and dot notation will give a error in this case

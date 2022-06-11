@@ -1,4 +1,4 @@
-
+ 
 // function expects arguments 
 // The value which we pass during calling a function is called parameters
 // In js we dont need to define the return type
@@ -20,6 +20,7 @@ console.log("The sum is ",sum);
 //That is we can treat functions as variables in javascript
 
 //Named function expression
+
 let syaHi = function op(a){
     console.log(a);
 }
